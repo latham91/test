@@ -5,7 +5,7 @@ import Catalog from "./pages/Catalog";
 import Guidelines from "./pages/Guidelines";
 import Checkout from "./pages/Checkout";
 import { SubscriptionProvider } from "./pages/SubscriptionContext";
-import MyAudioComponent from "./Components/audio.jsx";
+import MyAudioComponent from "./components/audio.jsx";
 import "./styles/App.css";
 
 const App = () => {
