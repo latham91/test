@@ -1,0 +1,77 @@
+.guideContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.guidelines,
+.termsAndCons {
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.guidelines ol,
+.termsAndCons ol {
+  counter-reset: item;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.guidelines ol li,
+.termsAndCons ol li {
+  counter-increment: item;
+  margin-bottom: 10px;
+}
+
+.guidelines ol li::before,
+.termsAndCons ol li::before {
+  content: counter(item) ".";
+  font-weight: bold;
+  margin-right: 8px;
+  font-size: 18px;
+  color: #00aeef;
+}
+
+.guidelines ol li strong,
+.termsAndCons ol li strong {
+  color: black;
+  text-transform: uppercase;
+}
+
+.guidelines ol li strong,
+.termsAndCons ol li strong h3 {
+  color: black;
+
+.guidelines ol li,
+.termsAndCons ol li {
+  counter-increment: item;
+  margin-bottom: 10px;
+}
+
+.guidelines ol li::before,
+.termsAndCons ol li::before {
+  content: counter(item) ".";
+  font-weight: bold;
+  margin-right: 8px;
+  font-size: 18px;
+  color: #018de5;
+}
+
+.guidelines ol li strong,
+.termsAndCons ol li strong {
+  color: #333;
+}
+
+.guidelines p,
+.termsAndCons p {
+  color: #666;
+  line-height: 1.6;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}

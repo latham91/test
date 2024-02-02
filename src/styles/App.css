@@ -1,0 +1,15 @@
+.maincontent {
+  padding-top: 0%;
+  padding-left: 0%;
+}
+
+.col {
+  padding: 1%;
+}
+.col-lg {
+  height: 200px;
+  overflow: hidden;
+  margin: 10px 0;
+  position: relative;
+  flex-basis: 30%;
+}
